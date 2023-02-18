@@ -23,3 +23,14 @@ We used a  language representation model called BERT, which stands for Bidirecti
     - For creating Heat Map,we have broken down paragraph into sentences,to look sentences-to-sentences semantic similarity. 
     
     
+
+## Project Outcome
+
+By looking at a pair of paragraphs, our technique identifies important words that dictate each paragraph’s semantics, matches between the words in both paragraphs, and retrieves the most important pairs that explain the similarity between the two. The method has been assessed by extensive human evaluations and demonstrated on datasets comprising long and complex paragraphs, has shown great promise, providing accurate interpretations that correlate better with human perceptions.
+
+BERT achieved all of its results with almost no task-specific changes to the neural network architecture.
+BERT is conceptually simple and empirically powerful. It obtained new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD (Stanford Question Answering Dataset) v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+
+
+![BERT Statistics](https://user-images.githubusercontent.com/92162301/219871606-cbf0aafe-037e-45c5-8d53-bdb6456af3b3.png)
+
